@@ -16,6 +16,7 @@ public class Argon2Hasher {
 
     private static final Argon2 argon2 = Argon2Factory.create(Argon2Factory.Argon2Types.ARGON2id, SALT_LENGTH, HASH_LENGTH);
 
+    //TODO: Hash Password
     public static String hashPassword(String password) {
         char[] charArray = password.toCharArray();
         try {
@@ -25,6 +26,7 @@ public class Argon2Hasher {
         }
     }
 
+    //TODO: verify Password
     public static boolean verifyPassword(String inputPassword, String storedHash) {
         char[] charArray = inputPassword.toCharArray();
         try {
