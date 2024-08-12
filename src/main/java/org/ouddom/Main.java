@@ -12,12 +12,12 @@ public class Main {
 //        System.out.println(STR."Registration success: \{registrationSuccessWithArgon2}");
 
         //TODO: Register with Base64
-        boolean registrationSuccessWithBase64 = userService.registerUserWithBase64("Test2", "pass2");
-        System.out.println(STR."Registration success: \{registrationSuccessWithBase64}");
+//        boolean registrationSuccessWithBase64 = userService.registerUserWithBase64("Test@1", "pass2");
+//        System.out.println(STR."Registration success: \{registrationSuccessWithBase64}");
 
         //TODO: Login
-//        boolean loginSuccess = userService.loginUser("Test1", "pass1");
-//        System.out.println(STR."Login success: \{loginSuccess}");
+        boolean loginSuccess = userService.loginUser("Test@", "pass22");
+        System.out.println(STR."Login success: \{loginSuccess}");
 
     }
 }
