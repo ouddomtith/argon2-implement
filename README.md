@@ -35,7 +35,7 @@ Step 2 :Add the JAR file to your project's classpath.
 - Check hash type of user _(1)
 - When the hash type is `argon2` let verify password with Argon2Hasher _(2)
 - When the hash type is not `argon2` let verify as normal _(3)
-- When verify success, update password by using hashPassword from Argon2Hasher and hash type as `argon2` after(3)  _(4)
+- When verify success, update password by using hashPassword from Argon2Hasher and hash type as `argon2` after process 3  (4)
 
 ### Step 4 : ``Process in register``
 - Using hash password with Argon2Hasher
